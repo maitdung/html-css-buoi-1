@@ -1,0 +1,83 @@
+ :root{
+  --primary : 
+  --
+ }
+ 
+ 
+ 
+ body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 20px;
+  box-sizing: border-box;
+ }
+ 
+ * {
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+
+ }
+
+ 
+ h2{
+    color: rgb(7, 4, 4);
+      display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  h3{
+    color: black;
+  }
+  #cv-name{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  style{
+    width:100px;
+  }
+.succes{
+  font-style: italic;
+}
+.chillbro1{
+  font-style: italic;
+}
+.chillbro{
+  font-style: bold;
+}
+#cv-pro{
+  display: flex;
+  flex-direction: column;
+}
+#basic{
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-items: center;
+justify-content: center; 
+
+
+}
+#basic * {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+#basic span{
+  font-size: medium;
+  
+}
+#basic a{
+  text-decoration: none;
+}
+h1,h2,h3,h4{
+  margin: 0;
+}
+ul,ol{
+  list-style-type:none;
+}
+
+
+
